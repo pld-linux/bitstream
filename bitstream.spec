@@ -1,19 +1,19 @@
 Summary:	biTStream - set of C headers allowing a simple access to binary structures
 Summary(pl.UTF-8):	biTStream - zbiór nagłówków C ułatwiających dostęp do struktur binarnych
 Name:		bitstream
-Version:	1.1
+Version:	1.2
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 Source0:	http://download.videolan.org/pub/videolan/bitstream/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	88e6e786242196b4d73a5b6075aeb1a2
+# Source0-md5:	c4b2dbd84eb5799f1525eb9a4e01dc56
 URL:		http://www.videolan.org/developers/bitstream.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 biTStream is a set of C headers allowing a simpler access to binary
 structures such as specified by MPEG, DVB, IETF, etc. It currently
-implements the following specifications:
+includes implementation of the following specifications:
  - ISO/IEC 13818-1 (MPEG-2 systems)
  - ETSI EN 300 468 (Service Information in DVB systems)
  - IETF RFC 2550 (Real Time Protocol)
@@ -23,7 +23,7 @@ implements the following specifications:
 %description -l pl.UTF-8
 biTStream to zbiór nagłówków C pozwalających na prosty dostęp do
 binarnych struktur, takich jak definiowane przez MPEG, DVB, IETF itp.
-Obecnie zaimplementowane są następujące specyfikacje:
+Obecnie zawiera implementacje następujących specyfikacji:
  - ISO/IEC 13818-1 (systemy MPEG-2)
  - ETSI EN 300 468 (Service Information w systemach DVB)
  - IETF RFC 2550 (Real Time Protocol)
