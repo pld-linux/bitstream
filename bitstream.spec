@@ -1,13 +1,14 @@
 Summary:	biTStream - set of C headers allowing a simple access to binary structures
 Summary(pl.UTF-8):	biTStream - zbiór nagłówków C ułatwiających dostęp do struktur binarnych
 Name:		bitstream
-Version:	1.2
+Version:	1.4
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 Source0:	http://download.videolan.org/pub/videolan/bitstream/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	c4b2dbd84eb5799f1525eb9a4e01dc56
+# Source0-md5:	dfb1449194250b2d364d54b5bbac858d
 URL:		http://www.videolan.org/developers/bitstream.html
+BuildRequires:	rpmbuild(macros) >= 1.446
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -47,3 +48,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING NEWS README TODO
 %{_includedir}/bitstream
+%{_npkgconfigdir}/bitstream.pc
