@@ -5,7 +5,7 @@ Version:	1.5
 Release:	1
 License:	MIT
 Group:		Development/Libraries
-Source0:	http://download.videolan.org/pub/videolan/bitstream/%{version}/%{name}-%{version}.tar.bz2
+Source0:	https://download.videolan.org/videolan/bitstream/%{version}/%{name}-%{version}.tar.bz2
 # Source0-md5:	34630d13332fd1575bcc8531b0a596be
 URL:		http://www.videolan.org/developers/bitstream.html
 BuildRequires:	rpmbuild(macros) >= 1.446
